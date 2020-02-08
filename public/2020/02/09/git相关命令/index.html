@@ -5,13 +5,17 @@
   
 
   
-  <title>Hexo</title>
+  <title>git相关命令 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="新建远程分支12git checkout -b paper &#x2F;&#x2F;新建本地分支 git push origin paper:paper &#x2F;&#x2F;将本地分支推送到远程  删除远程分支1git push origin --delete &lt;branchName&gt;  修改远程分支名称123456git clone xxx.git cd xxx git checkout -b &lt;new_bran">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git相关命令">
+<meta property="og:url" content="http://yoursite.com/2020/02/09/git%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="新建远程分支12git checkout -b paper &#x2F;&#x2F;新建本地分支 git push origin paper:paper &#x2F;&#x2F;将本地分支推送到远程  删除远程分支1git push origin --delete &lt;branchName&gt;  修改远程分支名称123456git clone xxx.git cd xxx git checkout -b &lt;new_bran">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-02-08T23:29:41.079Z">
+<meta property="article:modified_time" content="2020-02-08T23:29:41.079Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -62,9 +66,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-git相关命令" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-git相关命令" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/02/09/git%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/" class="article-date">
   <time datetime="2020-02-08T23:29:41.079Z" itemprop="datePublished">2020-02-09</time>
@@ -77,8 +79,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/02/09/git%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/">git相关命令</a>
+    <h1 class="article-title" itemprop="name">
+      git相关命令
     </h1>
   
 
@@ -136,124 +138,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-花生壳使用" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/02/08/%E8%8A%B1%E7%94%9F%E5%A3%B3%E4%BD%BF%E7%94%A8/" class="article-date">
-  <time datetime="2020-02-08T06:56:27.211Z" itemprop="datePublished">2020-02-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/02/08/%E8%8A%B1%E7%94%9F%E5%A3%B3%E4%BD%BF%E7%94%A8/">花生壳使用</a>
-    </h1>
+    <a href="/2020/02/08/%E8%8A%B1%E7%94%9F%E5%A3%B3%E4%BD%BF%E7%94%A8/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">花生壳使用</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>@(相关工具)</p>
-<p>网址：<a href="https://b.oray.com/" target="_blank" rel="noopener">https://b.oray.com/</a></p>
-<ul>
-<li>1.上电接入内网路由</li>
-<li>2.下载花生壳助手（Windows, 且和花生壳同一路由）<ul>
-<li><a href="http://www.werte.cn/jiaocheng/hsk_102.html" target="_blank" rel="noopener">http://www.werte.cn/jiaocheng/hsk_102.html</a></li>
-</ul>
-</li>
-<li>3.运行deviceHelper<ul>
-<li>该工具能搜到花生壳设备，右键设备小按钮，为其设置wifi密码（不要去管有线网络） </li>
-<li>wifi连接成功后，灯变白</li>
-</ul>
-</li>
-<li>4.登录客户端（windows）<ul>
-<li>内网映射-&gt;右下角“+”号</li>
-<li>应用类型-&gt;TCP</li>
-<li>映射模板-&gt;SSH服务！！！</li>
-<li>内网主机-&gt;192.168.31.99  //服务器（不是花生棒）的ip</li>
-<li>内网端口-&gt; 22 //其他貌似有问题</li>
-</ul>
-</li>
-<li>5.保存后点击“诊断”，会显示外网ip</li>
-<li>6.外网登录<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh wangjl@外网ip -p 随机的端口号（一定加）</span><br><span class="line">ssh wangjl@103.46.128.49 -p 28968</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<hr>
-<h4 id="问题"><a href="#问题" class="headerlink" title="问题:"></a>问题:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 能ping通ssh失败</span><br><span class="line">sudo service sshd restart</span><br><span class="line">reboot(一定要重启)</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/02/08/%E8%8A%B1%E7%94%9F%E5%A3%B3%E4%BD%BF%E7%94%A8/" data-id="ck6d8vmkz000017jr4pfybll2" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/02/08/hello-world/" class="article-date">
-  <time datetime="2020-02-08T01:38:26.771Z" itemprop="datePublished">2020-02-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/02/08/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/02/08/hello-world/" data-id="ck6cxrm3l0000o4jr9dtm6e2z" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
